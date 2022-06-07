@@ -1,9 +1,20 @@
+var LANGUAGE_NAME = {
+    en: "English",
+    fr: "Français",
+    es: "Español",
+    pt: "Português"
+  };
+
 var appConfig = {
-    //  change the your AccountSid
-    accountSid: "AC...",
+    //  change to your AccountSid
+    accountSid: "MY_ACCOUNT_SID",
     // change to your Flex Flow SID
-    flexFlowSid: "FO...",
+    flexFlowSid: "MY_FLEX_FLOW_SID",
     colorTheme: {
-        overrides: brandedColors
-    }
+    },
+    markdownSupport: true,
+    context: {
+        friendlyName: LANGUAGE_NAME[localStorage.twilioFlexWebChatLanguage] || "English",
+        language: localStorage.twilioFlexWebChatLanguage || "en"
+    },
 }

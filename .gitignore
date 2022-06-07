@@ -20,7 +20,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-appConfig.js
+webchat-appConfig.js
 yarn.lock
 package-lock.json
 webchat-appConfig.js
+

@@ -6,11 +6,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'regenerator-runtime/runtime';
 import './index.css';
-import App from './App';
+import ParentComponent from './ParentComponent';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-    <App configuration={window.appConfig} />,
+    <ParentComponent />,
     document.getElementById("root")
 );
 

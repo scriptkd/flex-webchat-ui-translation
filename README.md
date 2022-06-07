@@ -1,10 +1,11 @@
-# Twilio Flex Web Chat UI Sample
+# Twilio Flex Web Chat UI with real time translation
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 You can find the most recent version of the guide on how to perform common tasks [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 This package can only be consumed together with Twilio Flex. Visit http://twilio.com/flex to find out more.
+This package can only be consumed together with its corresponding Twilio Flex plugin and translation API
 
 ## Instructions
 
@@ -16,7 +17,9 @@ npm install
 ```
 cp public/assets/webchat-appConfig.sample.js public/assets/webchat-appConfig.js
 ```
-3. Start Flex UI by running:
+3. Set URL in src/App.js to your translator API's endpoint  
+```
+4. Start Flex UI by running:
 ```
 npm start
 ```
